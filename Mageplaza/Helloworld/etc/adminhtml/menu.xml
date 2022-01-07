@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+     <add id="Mageplaza_Helloworld::menu" title="Custom Menu" module="Mageplaza_Helloworld" sortOrder="10" resource="Mageplaza_Helloworld::menu"/>
+     <add id="Mageplaza_Helloworld::create" title="Create" module="Mageplaza_Helloworld" sortOrder="10" parent="Mageplaza_Helloworld::menu" action="custommenu/create/index" resource="Mageplaza_Helloworld::create"/>
+     <add id="Mageplaza_Helloworld::delete" title="Delete" module="Mageplaza_Helloworld" sortOrder="20" parent="Mageplaza_Helloworld::menu" action="custommenu/delete/index" resource="Mageplaza_Helloworld::delete"/>
+     <add id="Mageplaza_Helloworld::view" title="View" module="Mageplaza_Helloworld" sortOrder="30" parent="Mageplaza_Helloworld::menu" action="custommenu/view/index" resource="Mageplaza_Helloworld::view"/>
+    </menu>
+</config>
